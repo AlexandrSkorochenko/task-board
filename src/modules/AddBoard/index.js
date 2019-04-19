@@ -1,0 +1,1 @@
+export { AddBoard as default } from './AddBoard';

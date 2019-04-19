@@ -1,0 +1,50 @@
+.popupBgc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #343a40;
+  opacity: 0.3;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  width: 100%;
+}
+
+.popup_title {
+  background-color: #343a40;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #f8f9fa;
+}
+
+.popup_closeBtn {
+  border: 0;
+  background-color: transparent;
+  color: #f8f9fa;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup_closeBtn:hover {
+  background-color: #212529
+}
+
+.popup_content {
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+.popup_footer {
+  padding: 5px 10px;
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.addBoardBtn {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: #ced4da;
+  border: 0;
+  font-size: 20px;
+  transition: .3s;
+  color: #f8f9fa;
+  cursor: pointer;
+  outline: none;
+}
+
+.addBoardBtn:hover {
+  background-color: #adb5bd;
+}

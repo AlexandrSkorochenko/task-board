@@ -1,0 +1,1 @@
+export { BoardTask as default } from './BoardTask';

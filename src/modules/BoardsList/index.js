@@ -1,0 +1,1 @@
+export { BoardsList as default } from './BoardsList';
